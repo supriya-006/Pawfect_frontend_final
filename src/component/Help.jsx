@@ -7,7 +7,7 @@ const faqs = [
   { question: "How can I contact support?", answer: "Email us at petadopt@gmail.com or call +977 9800000000." },
 ];
 
-const help = () => {
+const Help = () => {
   const [search, setSearch] = useState("");
   const [openIndex, setOpenIndex] = useState(null);
 
