@@ -1,7 +1,8 @@
 import React from 'react'
-import MyCarousel from './components/MyCarousel'
-import NumberCount from './components/NumberCount'
-import Help from './components/Help'
+import MyCarousel from './component/MyCarousel'
+import NumberCount from './component/NumberCount'
+import Help from './component/Help'
+
 
 
 
