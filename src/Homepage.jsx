@@ -10,10 +10,10 @@ const Homepage = () => {
   return (
     <>
     
+   
     <MyCarousel/>
     <NumberCount/>
     <Help/>
-    
       </>
   )
 }

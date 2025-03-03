@@ -6,6 +6,7 @@ import Footers from './Footers'
 const Layouts = () => {
   return (
     <>
+    
     <Header/>
     <Outlet/>
     <Footers/>

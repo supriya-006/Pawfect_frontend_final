@@ -22,7 +22,7 @@ const NumberCount = () => {
       <div className="mx-auto flex max-w-xs flex-col gap-y-4">
         <dt className="text-base/7 text-gray-600">After supporters around the world sent over 270,000 emails and made over 5,000 calls and countless social media posts, Max Mara Fashion Group finally went fur-free.</dt>
         <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">46,000+</dd>
-      </div>
+      </div> 
     </dl>
   </div>
 </div>

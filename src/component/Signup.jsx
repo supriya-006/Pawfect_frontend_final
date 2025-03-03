@@ -116,7 +116,7 @@ const Signup = () => {
             Already have an account?{" "}
             <a href="#" className="text-blue-600 hover:underline dark:text-blue-400">
               <Link to='/login'>Login here</Link>
-            </a>
+            </a> 
           </p>
         </form>
       </div>
@@ -124,4 +124,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Signup
