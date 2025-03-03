@@ -11,7 +11,6 @@ const Homepage = () => {
     <>
     
     <MyCarousel/>
-    
     <NumberCount/>
     <Help/>
     
