@@ -7,7 +7,7 @@ import React from "react";
 // import Forget_password from "./Forget_password";
 // import Reset_password from "./Reset_password";
 // import Login from "./Login";
-import { Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Login from "./Login";
 import Signup from "./Signup";
 import Layouts from "./layouts/Layouts";
@@ -18,7 +18,7 @@ import Reset_password from "./Reset_password";
 
 const MyRoutes = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup />} />
@@ -29,7 +29,7 @@ const MyRoutes = () => {
           <Route path="/help" element={<Help />} />
         </Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 
