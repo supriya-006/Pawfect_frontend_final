@@ -7,7 +7,11 @@ const Header = () => {
     <>
       <div className="contain-fluid text-dark p-3  sticky-top" style={{ backgroundColor: '#f0f8ff' } }>
         <div className="row align-items-center">
-          <div className="col-12 col-md-3 fs-4 fw-bold text-center p-1">Pet</div>
+          
+        <div className="col-12 col-md-3 fs-4 fw-bold text-center p-1 d-flex align-items-center justify-content-center">
+            <img src="/logo.jpg" alt="Logo" className="me-2" style={{ height: '40px', width: '40px' }} />
+            PawFetch
+          </div>
           <div className="col-12 col-md-6">
             <div className='d-flex btn-group'>
               <input type='search' className='form-control' placeholder="Search for pets, breeds, etc." />

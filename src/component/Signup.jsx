@@ -38,7 +38,7 @@ const Signup = () => {
       <div className="w-full max-w-md bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 sm:p-8">
         {/* Logo */}
         <div className="flex justify-center mb-6">
-          <img src="src/component/logo.jpg" alt='logo' height={'80px'} width={'80px'} />
+          <img src="./logo.jpg" alt='logo' height={'80px'} width={'80px'} />
         </div>
 
         {/* Title */}
