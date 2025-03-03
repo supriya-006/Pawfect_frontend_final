@@ -14,10 +14,12 @@ function App() {
       <Routes>
         <Route path='/login' element={<Login/>}> </Route>
         <Route path='/signup' element={<Signup/>}> </Route>
-        <Route path='/' element={<Home/>}> </Route>
-        <Route path='/forget_password' element={<Forget_password/>}> </Route>
-        <Route path='/reset_password' element={<Reset_password/>}> </Route>
-        
+        <Route path="/" element={<Layouts />}>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/forget_password" element={<Forget_password />} />
+          <Route path="/reset_password" element={<Reset_password />} />
+          <Route path="/help" element={<Help />} />
+        </Route>
         
       </Routes>
       </BrowserRouter>
