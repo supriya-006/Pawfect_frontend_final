@@ -19,7 +19,7 @@ const Header = () => {
             </div>
           </div>
           <div className="col-12 col-md-3 d-flex justify-content-evenly ps-2 py-1">
-          <Link to="/">
+          <Link to="/home">
               <button type="button" className="btn btn-outline-primary" style={{ borderRadius: '10px', fontSize: '14px', fontWeight: 'bold' }}>Home</button>
             </Link>
             <Link to="/adopt">

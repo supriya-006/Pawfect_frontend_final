@@ -23,6 +23,7 @@ const MyRoutes = () => {
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/" element={<Layouts />}>
+        <Route path="/home" element={<Homepage/>}/>
           <Route path="/" element={<Homepage />} />
           <Route path="/forget_password" element={<Forget_password />} />
           <Route path="/reset_password" element={<Reset_password/>} />
