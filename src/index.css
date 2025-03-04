@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+.add-btn{
+   @apply bg-green-400 inline-block;
+   @apply px-4 py-2 rounded-md my-3;
+   @apply hover:bg-green-300;
+   @apply active:bg-green-500;
+}
+.delete-btn{
+   @apply bg-red-400 inline-block;
+   @apply px-4 py-2 rounded-md my-3;
+   @apply hover:bg-red-300;
+   @apply active:bg-red-500;
+}
+
+.edit-btn{
+   @apply bg-orange-400 inline-block;
+   @apply px-4 py-2 rounded-md my-3;
+   @apply hover:bg-orange-300;
+   @apply active:bg-orange-500;
+}

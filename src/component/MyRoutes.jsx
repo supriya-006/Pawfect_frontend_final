@@ -15,6 +15,10 @@ import Homepage from "../Homepage";
 import Forget_password from "./Forget_password";
 import Help from "./Help";
 import Reset_password from "./Reset_password";
+import Adopt from "../Pages/Admin/Adopt";
+import Category from "../Pages/Admin/Category";
+import AddCategory from "../Pages/Admin/AddCategory";
+import EditCategory from "../Pages/Admin/EditCategory";
 
 const MyRoutes = () => {
   return (
@@ -28,6 +32,12 @@ const MyRoutes = () => {
           <Route path="/forget_password" element={<Forget_password />} />
           <Route path="/reset_password" element={<Reset_password/>} />
           <Route path="/help" element={<Help />} />
+          <Route path="/adopt" element={<Adopt/>}/>
+
+          <Route path='category' element={<Category/>}/>
+          <Route path='category/new' element={<AddCategory/>}/>
+         <Route path='category/:id' element={<EditCategory/>}/> 
+          
         </Route>
       </Routes>
     </BrowserRouter>
